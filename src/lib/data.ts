@@ -1,17 +1,18 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Sailesh Ramesh",
+  quote: "Enthusiastic Software Engineer with a deep fascination for the ever-evolving world of technology!",
+  location: "Bengaluru, India",
+  email: "saileshsyrus@gmail.com",
+  github: "https://github.com/SaileshRamesh",
+  linkedin: "https://www.linkedin.com/in/sailesh-ramesh-96991b13a/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "MPOWER Financing",
+    location: "Bengaluru, Karnataka, India",
+    position: "Site Reliability Engineer",
+    period: "July 2023 - Present",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
       "Built a comprehensive admin panel for managing content, user data, and analytics.",
@@ -23,70 +24,87 @@ export const workExperience = [
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Cognizant",
+    location: "Bengaluru, Karnataka, India",
+    position: "Programmer Analyst",
+    period: "Oct 2022 - Jun 2023",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Write and maintain functional automated Test Scripts for Mobile Applications (𝐉𝐚𝐯𝐚, 𝐒𝐞𝐥𝐞𝐧𝐢𝐮𝐦 𝐰𝐢𝐭𝐡 𝐂𝐮𝐜𝐮𝐦𝐛𝐞𝐫𝐧 𝐁𝐃𝐃). ",
+      'https://github.com/SaileshRamesh/eCommerceAutomationBDDFramework',
+      "Strong hands-on 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥 Testing, 𝐬𝐦𝐨𝐤𝐞 testing, 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 testing, 𝐜𝐫𝐨𝐬𝐬-𝐛𝐫𝐨𝐰𝐬𝐞𝐫 testing, and 𝐜𝐨𝐦𝐩𝐚𝐭𝐢𝐛𝐢𝐥𝐢𝐭𝐲 testing.",
+      'https://github.com/SaileshRamesh/TestNGFramework',
+      "Experience in executing tests on CI/CD pipeline tool 𝐉𝐞𝐧𝐤𝐢𝐧𝐬.",
+      'Basic Knowledge of 𝐑𝐞𝐬𝐭 𝐀𝐏𝐈 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡 𝐉𝐚𝐯𝐚 (𝐑𝐞𝐬𝐭 𝐀𝐬𝐬𝐮𝐫𝐞𝐝):https://github.com/SaileshRamesh/RestAssuredAPIFramework and Distributed version control system 𝐆𝐢𝐭.'
     ],
   },
   {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
+    company: "Cognizant",
+    location: "Chennai, Tamil Nadu, India",
+    position: "Programmer",
+    period: "Aug 2021 - Oct 2022",
     achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
+      "Experienced in 𝐀11𝐘 𝐀𝐜𝐜𝐞𝐬𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐓𝐞𝐬𝐭𝐢𝐧𝐠 (includes Voiceover/ Talkback for mobile devices, 200% font re-size testing). Worked on the DequeTool for this. ",
       "Implemented JavaScript-based features like user authentication and real-time updates.",
+    ],
+  },
+  {
+    company: "Cognizant",
+    location: "Chennai, Tamil Nadu, India",
+    position: "Programmer Trainee",
+    period: "Aug 2020 - Aug 2021",
+    achievements: [
+      "Learning Java, TestNG, Selenium WebDriver, Jenkins, Rest Assured, Maven, Gradle, Cucumber, Jira Git",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "Kristu Jayanti College Autonomous",
+    location: "Bengaluru, Karnataka, India",
+    degree: "Bachelor of Computer Application, Computer Sciences",
+    period: "Jun 2017 - Jun 2020",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+      { name: "Activities and Societies: Fitness" },
+      {
+        name: "Whey To Fitness Project in VB.net",
+        url: "https://github.com/SaileshRamesh/4th_Sem_Project_Whey_To_Fitness",
+      },
+      {
+        name: "VetCare in ASP.net",
+        url: "https://github.com/SaileshRamesh/Fifth_Semester_Project_VetCare",
+      },
+      {
+        name: "Seva-Portal in PHP",
+        url: "https://github.com/SaileshRamesh/Final_year_BCA_project_Seva_Portal",
+      },
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "C++",
     "Java",
-    "Solidity",
+    "Python",
+    "Linux",
+    "Shell Scripting"
   ],
-  frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
+  Containers: [
+    "Docker",
+    "Kubernetes",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
+  VersionControlNetworking: ["Git", "Networking",],
+  Cloud: ["Amazon Web Services (AWS)", "Basics Azure"],
+  InfrastructureAsCode: ["Terraform","Ansible",],
+  CICD: ["Jenkins","Bitbucket-Pipelines","GitHub Actions"],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    "DataDog",
+    "ArgoCD",
+    "MySQLWorkBench",
+    "PgAdmin",
+    "Redash",
+    "Uptime Kuma",
+    "Graphana",
+    "Prometheus",
   ],
 };
 
@@ -112,57 +130,5 @@ export const projects = [
       "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
       "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
     ],
-  },
-];
-
-export const awards = [
-  {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
   },
 ];

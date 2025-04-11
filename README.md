@@ -115,7 +115,7 @@ This portfolio is designed to be easily customizable mainly by editing the data 
    ```typescript
    export const skills = {
      programmingLanguages: ["Skill 1", "Skill 2"],
-     frontendDevelopment: ["Skill 1", "Skill 2"],
+     InfrastructureAsCode: ["Skill 1", "Skill 2"],
      // Other skill categories
    };
    ```
@@ -134,20 +134,6 @@ This portfolio is designed to be easily customizable mainly by editing the data 
        ],
      },
      // Add more projects
-   ];
-   ```
-
-6. **Awards**: Highlight your achievements
-   ```typescript
-   export const awards = [
-     {
-       name: "Award Name",
-       issuer: "Issuer",
-       date: "Date",
-       type: "Type",
-       position: "Position",
-     },
-     // Add more awards
    ];
    ```
 

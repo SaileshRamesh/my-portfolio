@@ -1,6 +1,5 @@
 import { education } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
-import { Award } from "lucide-react";
 import MotionWrapper from "./MotionWrapper";
 import { motion } from "framer-motion";
 
@@ -41,7 +40,6 @@ export default function EducationSection() {
                 >
                   <div className="flex items-center mb-3">
                     <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
-                      <Award className="h-4 w-4 text-purple-500" />
                     </div>
                     <h4 className="text-sm font-medium">
                       ✨ Achievements & Activities
@@ -57,7 +55,18 @@ export default function EducationSection() {
                         transition={{ duration: 0.3, delay: 0.1 * i }}
                         viewport={{ once: true }}
                       >
-                        {achievement}
+                        {achievement.url ? (
+                          <a
+                            href={achievement.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-purple-500 hover:underline"
+                          >
+                            {achievement.name}
+                          </a>
+                        ) : (
+                          achievement.name
+                        )}
                       </motion.li>
                     ))}
                   </ul>

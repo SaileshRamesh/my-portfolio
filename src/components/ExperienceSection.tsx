@@ -58,7 +58,15 @@ export default function ExperienceSection() {
                       transition={{ duration: 0.3, delay: 0.1 * i }}
                       viewport={{ once: true }}
                     >
-                      {achievement}
+                     
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: achievement.replace(
+                            /(https?:\/\/[^\s]+)/g,
+                            '<a href="$1" class="text-purple-500 underline" target="_blank" rel="noopener noreferrer">$1</a>'
+                          ),
+                        }}
+                      />
                     </motion.li>
                   ))}
                 </ul>
