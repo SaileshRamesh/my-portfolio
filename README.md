@@ -16,7 +16,7 @@ A sleek, responsive portfolio website built with Astro, React, and Tailwind CSS,
 
 ## Demo
 
-[Live Demo](https://rishilol.vercel.app/)
+[Live Demo](https://my-portfolio-saileshrameshs-projects.vercel.app/)
 
 ## Getting Started
 
